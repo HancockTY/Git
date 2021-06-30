@@ -1,0 +1,22 @@
+pipeline {
+    agent any
+    stages('build') {
+    steps {
+                echo "Build successfullu!";
+      }
+    }
+    
+    stages('test') {
+    steps {
+                echo "Build successfullu!";
+      }
+    }
+    
+    stages('depoly') {
+    steps {
+                echo "Build successfullu!";
+      }
+    }
+    
+
+        }
